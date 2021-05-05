@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2a196a9c1e4e48329b833898d11feeb3" Name="Diagram1">
+        <EntityTypeShape EntityType="PETDbModel.Comment" Width="1.5" PointX="3" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PETDbModel.Observant" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PETDbModel.Person" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PETDbModel.Report" Width="1.5" PointX="6" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PETDbModel.User" Width="1.5" PointX="2.125" PointY="9.375" IsExpanded="true" />
+        <AssociationConnector Association="PETDbModel.FK__Comments__Author__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="PETDbModel.FK__Comments__Report__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="PETDbModel.FK__Reports__Observa__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="PETDbModel.FK__Reports__AuthorI__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="PETDbModel.FK__Users__PersonId__2A4B4B5E" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
